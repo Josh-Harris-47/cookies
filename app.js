@@ -8,3 +8,10 @@ var greeter = function(){
   };
 };
 greeter();
+
+var new Storage = {
+  username: "",
+  password: "",
+  security: "",
+  id: ""
+}

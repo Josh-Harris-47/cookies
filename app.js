@@ -15,3 +15,12 @@ var new Storage = {
   security: "",
   id: ""
 }
+
+var addUser = function(){
+  var id = 0;
+  return function(){
+    document.getElementById('newname').value
+    id += 1;
+  };
+};
+var directory = addUser();
